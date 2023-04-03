@@ -42,14 +42,14 @@ export const Navbar = () => {
         >
           <h1 className="text-5xl font-signature ml-2 mt-3">
             {" "}
-            <span className="text-red-600">V</span>{" "}
+            <span className="text-red-500">V</span>{" "}
           </h1>
         </Link>
       </div>
       <ul className="hidden md:flex">
         {links.map((ele) => (
           <li
-            className="px-4 text-2xl hover:underline hover:animate-bounce hover:text-red-600"
+            className="px-4 text-2xl hover:underline hover:animate-bounce hover:text-red-500"
             style={{
               color: page === ele.link ? "red" : "",
               textDecoration: page === ele.link ? "underline" : "",

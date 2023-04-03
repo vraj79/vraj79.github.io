@@ -111,7 +111,7 @@ export const Project = () => {
     <div
       name="Projects"
       style={{height:"max-content"}}
-      className="bg-gradient-to-b from-slate-400 to-black text-center text-white lg:h-screen py-5 grid justify-center items-center"
+      className="bg-gradient-to-b from-gray-600 to-black text-center text-white lg:h-screen py-5 grid justify-center items-center"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center">
         <div className="pb-3">
@@ -130,7 +130,7 @@ export const Project = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-95 w-full h-64 "
+                className="rounded-md duration-200 hover:scale-105 w-full h-64 "
               />
               </a>
               <p className="text-lg mt-1">Tech Stack :</p>

@@ -1,8 +1,9 @@
 import React from "react";
-
+import "../index.css"
 const About = () => {
   return (
     <div
+    id="about"
       name="About"
       className="w-full bg-gradient-to-b from-green-500 to-blue-600 text-center text-white lg:h-screen grid justify-center items-center"
     >

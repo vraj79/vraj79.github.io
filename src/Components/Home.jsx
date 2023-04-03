@@ -5,21 +5,22 @@ import { SocialLinks } from "./SocialLinks";
 export const Home = () => {
   return (
     <div id="Home" name="Home" className="h-screen w-full">
-      <div className="mx-auto flex flex-col items-center justify-center gap-10 h-full md:flex-row">
-        <div className=" w-1/3 text-center text-2xl p-2">
+      <div className="mx-auto text-center flex flex-col justify-center items-center gap-10 h-full md:flex-row">
+        <div className="md:text-2xl md:w-1/3 text-md p-2 rounded-md w-max">
           <p>Welcome to my world ... I'm</p>
-          <h2 className="text-6xl mt-3 font-signature">Vishal Raj</h2>
-          <span className="w-max">
-          <Typical
-                    loop={Infinity}
-                    steps={[
-                      "A Full Stack Web Developer",
-                      1500,
-                      "A MERN Stack Web Developer",
-                      1500,
-                      
-                    ]}
-                  />
+          <h2 className="md:text-6xl text-4xl mt-3 font-signature">
+            Vishal Raj
+          </h2>
+          <span className="hidden md:block text-center">
+            <Typical
+              loop={Infinity}
+              steps={[
+                "A Full Stack Web Developer",
+                1500,
+                "A MERN Stack Web Developer",
+                1500,
+              ]}
+            />
           </span>
           {/* <Link
             to="Projects"
@@ -30,7 +31,7 @@ export const Home = () => {
           >
             My Projects
           </Link> */}
-          <SocialLinks/>
+          <SocialLinks />
         </div>
         <div className="mt-2 md:shrink-0">
           <img
