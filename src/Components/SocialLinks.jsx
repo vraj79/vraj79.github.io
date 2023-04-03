@@ -1,107 +1,53 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FiMail } from "react-icons/fi";
 
 export const SocialLinks = () => {
-  const links = [
-    {
-      id: 1,
-      child: (
-        <>
-          
-        </>
-      ),
-      href: "https://linkedin.com",
-      style: "",
-    },
-    {
-      id: 2,
-      child: (
-        <>
-          GitHub <FaGithub size={30} />
-        </>
-      ),
-      href: "https://github.com/theyashpatel",
-    },
-    {
-      id: 3,
-      child: (
-        <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
-      href: "visha.kumar4856@gmail.com",
-    },
-    {
-      id: 4,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: "/resume.pdf",
-      style: "rounded-br-md",
-      download: true,
-    },
-  ];
-
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
-      <ul>
-          <li
-            className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
-              " " +
-              "rounded-tr-md"
-            }
-            style={{backgroundColor:"#0a66c2"}}
+    <div className="mt-3">
+      <ul className="flex items-center justify-center gap-2">
+        <li
+          className={
+            "flex rounded-md justify-between items-center w-max hover:animate-ping animate-pulse bg-gray-500 hover:bg-blue-600 h-12 px-3 "
+          }
+        >
+          <a
+            href={"https://www.linkedin.com/in/vishal-r-4153b7133/"}
+            className="flex justify-between items-center w-full text-white"
+            target="_blank"
+            rel="noreferrer"
           >
-            <a
-              href={"https://www.linkedin.com/in/vishal-r-4153b7133/"}
-              className="flex justify-between items-center w-full text-white"
-            //   download={download}
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn <FaLinkedin  size={30} />
-            </a>
-          </li>
-          <li
-            className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
-              " " +
-              "rounded-tr-md"
-            }
-            style={{backgroundColor:"white"}}
+            <FaLinkedin size={30} />
+          </a>
+        </li>
+        <li
+          className={
+            "rounded-md flex justify-between items-center w-max h-12 px-3 hover:animate-ping animate-pulse bg-gray-500 hover:bg-black"
+          }
+        >
+          <a
+            href={"https://github.com/vraj79"}
+            className="flex justify-between items-center w-full text-white"
+            target="_blank"
+            rel="noreferrer"
           >
-            <a
-              href={"https://github.com/vraj79"}
-              className="flex justify-between items-center w-full text-black"
-            //   download={download}
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub <FaGithub style={{backgroundColor:"white"}}  size={30} />
-            </a>
-          </li><li
-            className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 hover:bg-red-500" +
-              " " +
-              "rounded-tr-md"
-            }
+            <FaGithub size={30} />
+          </a>
+        </li>
+        <li
+          className={
+            "rounded-md flex justify-between items-center w-max h-12 px-3 bg-gray-500 animate-pulse hover:animate-ping hover:bg-red-500 cursor-pointer"
+          }
+        >
+          <a
+            href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+            className="flex justify-between items-center w-full text-white"
+            target="_blank"
+            rel="noreferrer"
           >
-            <a
-              href={"https://drive.google.com/file/d/1WkL8t-Zq-BKGhLzwzgp0_Z9F6NeeT1ph/view?usp=share_link"}
-              className="flex justify-between items-center w-full text-white"
-              download={true}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        {/* ))} */}
+            <FiMail size={30} />
+          </a>
+        </li>
       </ul>
     </div>
   );

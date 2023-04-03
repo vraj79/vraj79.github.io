@@ -9,37 +9,7 @@
     font-family: 'Raleway', sans-serif;
   }
 }
-#loading{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-#loading img{
-  border-radius: 50px;
-}
-.slide-down {
-  width:100%;
-  overflow:hidden;
-}
-.slide-down {
-  animation: 1.6s slide-down;
-  margin-top:0%;
-}
 
-@keyframes slide-down {
-  from {
-    margin-top: -100%;
-    height: 300%; 
-  }
-
-  to {
-    margin-top: 0%;
-    height: 100%;
-  }
-}
 #Home{
   background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-011.jpg);
   background-size: cover;

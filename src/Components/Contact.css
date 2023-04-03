@@ -1,0 +1,44 @@
+#contact .contact {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+}
+#contact .contact-items {
+  margin-top: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: 'Times New Roman', Times, serif;
+}
+#contact .contact-item {
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 18px 0 #ffffff2c;
+  transition: 0.3s ease box-shadow;
+}
+#contact .contact-item:hover {
+  box-shadow: 0px 0px 5px 0 white;
+}
+#contact .icon {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  #contact .contact-items {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  #contact .icon {
+	width: 25%;
+  }
+}
