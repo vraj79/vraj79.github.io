@@ -49,7 +49,7 @@ export const Navbar = () => {
       <ul className="hidden md:flex">
         {links.map((ele) => (
           <li
-            className="px-4 text-2xl hover:underline hover:animate-bounce hover:text-red-500"
+            className="px-4 text-2xl hover:underline hover:text-red-500"
             style={{
               color: page === ele.link ? "red" : "",
               textDecoration: page === ele.link ? "underline" : "",
