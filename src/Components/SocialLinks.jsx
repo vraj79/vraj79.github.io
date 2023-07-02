@@ -8,7 +8,7 @@ export const SocialLinks = () => {
       <ul className="flex items-center justify-center gap-2">
         <li
           className={
-            "flex rounded-md justify-between items-center w-max hover:animate-ping animate-pulse bg-gray-500 hover:bg-blue-600 h-12 px-3 "
+            "flex rounded-md justify-between items-center w-max animate-pulse bg-gray-500 hover:bg-blue-600 h-12 px-3 "
           }
         >
           <a
@@ -22,7 +22,7 @@ export const SocialLinks = () => {
         </li>
         <li
           className={
-            "rounded-md flex justify-between items-center w-max h-12 px-3 hover:animate-ping animate-pulse bg-gray-500 hover:bg-black"
+            "rounded-md flex justify-between items-center w-max h-12 px-3 animate-pulse bg-gray-500 hover:bg-black"
           }
         >
           <a
@@ -36,7 +36,7 @@ export const SocialLinks = () => {
         </li>
         <li
           className={
-            "rounded-md flex justify-between items-center w-max h-12 px-3 bg-gray-500 animate-pulse hover:animate-ping hover:bg-red-500 cursor-pointer"
+            "rounded-md flex justify-between items-center w-max h-12 px-3 bg-gray-500 animate-pulse hover:bg-red-500 cursor-pointer"
           }
         >
           <a

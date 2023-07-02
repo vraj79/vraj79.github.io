@@ -15,7 +15,7 @@ export const Contact = () => {
             </h1>
           </div>
           <div className="contact-items">
-            <div className="contact-item hover:animate-ping">
+            <div className="contact-item">
               <div className="icon">
                 <img
                   className="rounded-full hover:animate-spin"
@@ -29,7 +29,7 @@ export const Contact = () => {
                 <h2>+91 7992375033</h2>
               </div>
             </div>
-            <div className="contact-item hover:animate-ping">
+            <div className="contact-item">
               <div className="icon">
                 <img
                   className="rounded-full hover:animate-spin"
@@ -43,7 +43,7 @@ export const Contact = () => {
                 <h2>vishal.kumar4856@gmail.com</h2>
               </div>
             </div>
-            <div className="contact-item hover:animate-ping">
+            <div className="contact-item">
               <div className="icon">
                 <img
                   className="rounded-full hover:animate-spin"
@@ -101,7 +101,7 @@ export const Contact = () => {
               </button>
             </form>
           </div>
-          <a href="https://github.com/vraj79" className="text-xl">© 2023 Designed and Built by Vishal Raj</a>
+          <a target="_blank" href="https://github.com/vraj79" className="text-xl" rel="noreferrer">© 2023 Designed and Built by Vishal Raj</a>
         </div>
       </div>
     </div>

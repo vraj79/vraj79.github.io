@@ -107,6 +107,8 @@ export const Project = () => {
     }
   ];
 
+  console.log(Projects.length)
+
   return (
     <div
       name="Projects"
