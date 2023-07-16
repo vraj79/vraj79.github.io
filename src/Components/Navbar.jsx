@@ -73,7 +73,7 @@ export const Navbar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1WkL8t-Zq-BKGhLzwzgp0_Z9F6NeeT1ph/view?usp=share_link"
+            href="https://drive.google.com/file/d/1ylQfC-4EeZHabh7AUpPeAewIj2KW20Wv/view?usp=sharing"
             className="px-4 text-2xl hover:underline hover:text-red-600"
           >
             Resume
