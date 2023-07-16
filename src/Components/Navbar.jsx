@@ -69,7 +69,7 @@ export const Navbar = () => {
             </Link>
           </li>
         ))}
-        <li className="hover:animate-bounce">
+        <li>
           <a
             target="_blank"
             rel="noreferrer"

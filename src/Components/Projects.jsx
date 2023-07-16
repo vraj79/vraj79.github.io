@@ -5,28 +5,40 @@ import { AiFillGithub } from "react-icons/ai";
 export const Project = () => {
   const Projects = [
     {
-      id: 5,
-      git:"https://github.com/vraj79/geekbuying-clone",
-      net: "https://mygeekbuying.netlify.app/",
-      src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSytgrJw7H9mjNBoWVI22dQcWSp6L0bgbESQ&usqp=CAU",
-      tech1: "REACT",
+      id: 9,
+      git: "https://github.com/vraj79/Ecommerce-clone---Ajeeb",
+      net: "https://puzzled-culottes-dove.cyclic.app/",
+      src: "https://i.ibb.co/ZB9gddM/Ecommerce.png",
+      tech1: "MERN",
       tech2: "JAVASCRIPT",
-      tech3: "CSS",
-      type:"A group project of 2 members executed in 06 days",
+      tech3: "SCSS",
+      type: "A solo project executed in 15 days",
       desc:
-        "GeekBuying is an E-Commerce Website who deals with the smart gadgets for all."
+        "It is one of the largest e-commerce stores in India that deals with a wide range of products for men, women, and kids."
     },
     {
-      id: 6,
-      git:"https://github.com/vraj79/app-i",
-      net: "https://app-i.netlify.app/",
-      src:"https://img.freepik.com/free-vector/template-banner-online-store-with-shopping-cart-with-purchases-boxes-delivery-from-supermarket-vector-illustration_548887-104.jpg?w=2000",
+      id: 10,
+      git: "https://github.com/vraj79/junction_plus_clone",
+      net: "https://junction-plus-clone.vercel.app/",
+      src: "https://user-images.githubusercontent.com/108677306/221346026-b1050e5a-dbb2-46d7-97b7-e63c24babc00.PNG",
       tech1: "REACT",
       tech2: "JAVASCRIPT",
-      tech3: "CSS",
-      type:"A solo project executed in 06 days",
+      tech3: "CHAKRA UI",
+      type: "A solo project executed in 06 days",
       desc:
-        "Shpping app is an E-Commerce Website which deals with the clothes and electronics."
+        "The Junction Plus is a web application which provides you the complete information related of Movies, TV-Shows at runtime."
+    },
+    {
+      id: 7,
+      git: "https://github.com/vraj79/paypal_frontend",
+      net: "https://paypal-assignment.netlify.app/",
+      src: "https://confluence.atlassian.com/jirasoftwareserver0819/files/1086415884/1086415903/1/1634640320410/kanban_active.png",
+      tech1: "MERN",
+      tech2: "JAVASCRIPT",
+      tech3: "CSS",
+      type: "A solo project executed in 01 days",
+      desc:
+        "Task planner is like JIRA Website which helps to plan, assign and show progress to users."
     },
     {
       id: 3,
@@ -38,21 +50,33 @@ export const Project = () => {
       tech1: "MERN",
       tech2: "JAVASCRIPT",
       tech3: "CSS",
-      type:"A group project of 5 members executed in 06 days",
+      type: "A group project of 5 members executed in 06 days",
       desc:
         "Daily Objects is an E-Commerce Website which deals with the cases,covers & bags."
     },
     {
-      id: 7,
-      git:"https://github.com/vraj79/paypal_frontend",
-      net: "https://paypal-assignment.netlify.app/",
-      src:"https://confluence.atlassian.com/jirasoftwareserver0819/files/1086415884/1086415903/1/1634640320410/kanban_active.png",
-      tech1: "MERN",
+      id: 5,
+      git: "https://github.com/vraj79/geekbuying-clone",
+      net: "https://mygeekbuying.netlify.app/",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSytgrJw7H9mjNBoWVI22dQcWSp6L0bgbESQ&usqp=CAU",
+      tech1: "REACT",
       tech2: "JAVASCRIPT",
       tech3: "CSS",
-      type:"A solo project executed in 01 days",
+      type: "A group project of 2 members executed in 06 days",
       desc:
-        "Task planner is like JIRA Website which helps to plan, assign and show progress to users."
+        "GeekBuying is an E-Commerce Website who deals with the smart gadgets for all."
+    },
+    {
+      id: 6,
+      git: "https://github.com/vraj79/app-i",
+      net: "https://app-i.netlify.app/",
+      src: "https://img.freepik.com/free-vector/template-banner-online-store-with-shopping-cart-with-purchases-boxes-delivery-from-supermarket-vector-illustration_548887-104.jpg?w=2000",
+      tech1: "REACT",
+      tech2: "JAVASCRIPT",
+      tech3: "CSS",
+      type: "A solo project executed in 06 days",
+      desc:
+        "Shpping app is an E-Commerce Website which deals with the clothes and electronics."
     },
     {
       id: 4,
@@ -64,7 +88,7 @@ export const Project = () => {
       tech1: "REACT",
       tech2: "JAVASCRIPT",
       tech3: "CSS",
-      type:"A group project of 5 members executed in 06 days",
+      type: "A group project of 5 members executed in 06 days",
       desc:
         "CultFit make group workouts fun, daily food healthy & tasty and Mental fitness easy with yoga."
     },
@@ -72,11 +96,11 @@ export const Project = () => {
       id: 8,
       git: "https://github.com/vraj79/ts_opa",
       net: "https://evogym-opa.netlify.app/",
-      src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52wvmSHf14xY8yPObfL5WI9urQkJsKOPSFQ&usqp=CAU",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52wvmSHf14xY8yPObfL5WI9urQkJsKOPSFQ&usqp=CAU",
       tech1: "REACT",
       tech2: "TYPESCRIPT",
       tech3: "CSS",
-      type:"A solo project executed in 02 days",
+      type: "A solo project executed in 02 days",
       desc:
         "Evogym is an Unrivaled Gym. Unparalleled Training Fitness Classes. World Class Studios to get the Body Shapes "
     },
@@ -89,7 +113,7 @@ export const Project = () => {
       tech1: "HTML",
       tech2: "CSS",
       tech3: "JAVASCRIPT",
-      type:"A group project of 5 members executed in 06 days",
+      type: "A group project of 5 members executed in 06 days",
       desc:
         "Booking.com is a travel agency for lodging reservations & other travel products."
     },
@@ -102,7 +126,7 @@ export const Project = () => {
       tech1: "HTML",
       tech2: "CSS",
       tech3: "JAVASCRIPT",
-      type:"A solo project executed in 06 days",
+      type: "A solo project executed in 06 days",
       desc: "Codecov provides metrics and insights into the results of tests through code coverage reports."
     }
   ];
@@ -112,7 +136,7 @@ export const Project = () => {
   return (
     <div
       name="Projects"
-      style={{height:"max-content"}}
+      style={{ height: "max-content" }}
       className="bg-gradient-to-b from-gray-600 to-black text-center text-white lg:h-screen py-5 grid justify-center items-center"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center">
@@ -123,17 +147,17 @@ export const Project = () => {
           <p className="py-3">Check out some of my work right here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0 pb-10">
-          {Projects.map(({ id, src, git, net, tech1, tech2, tech3,desc,type }) =>
+          {Projects.map(({ id, src, git, net, tech1, tech2, tech3, desc, type }) =>
             <div
               key={id}
               className="shadow-lg animate-round shadow-green-500 rounded-lg py-2"
             >
               <a target="_blank" rel="noreferrer" href={net}>
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105 w-full h-64 "
-              />
+                <img
+                  src={src}
+                  alt=""
+                  className="rounded-md duration-200 hover:scale-105 w-full h-64 "
+                />
               </a>
               <p className="text-lg mt-1">Tech Stack :</p>
               <p className="text-md my-1 font-semibold animate-bounce border w-max block m-auto p-1 px-3 rounded-md">
@@ -141,8 +165,8 @@ export const Project = () => {
               </p>
               <div className="flex justify-around items-center  my-2">
                 <a
-                rel="noreferrer"
-                target={"_blank"}
+                  rel="noreferrer"
+                  target={"_blank"}
                   href={git}
                   className="flex hover:bg-black gap-1 border rounded-md p-2 items-center justify-center duration-200 hover:scale-105"
                 >
@@ -153,8 +177,8 @@ export const Project = () => {
                   <span>Code</span>
                 </a>
                 <a
-                rel="noreferrer"
-                target={"_blank"}
+                  rel="noreferrer"
+                  target={"_blank"}
                   href={net}
                   className="flex gap-1 border hover:bg-blue-500 rounded-md p-2 items-center duration-200 hover:scale-105"
                 >
